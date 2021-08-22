@@ -1,12 +1,11 @@
 <script lang="ts">
+	// -------components
+	import Projects from '$lib/components/Projects.svelte';
+	// -------icons
+	// -------utilities
 	import { active_page } from '$lib/stores/stores';
-
 	$active_page = 'Portfolio';
 </script>
 
 {$active_page}
-
-<!-- markup (zero or more items) goes here -->
-<style>
-	/* your styles go here */
-</style>
+<Projects />

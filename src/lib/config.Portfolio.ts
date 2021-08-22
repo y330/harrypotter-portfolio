@@ -1,6 +1,6 @@
 export default {
 	me: {
-		name: "Harry James Potter",
+		name: { first: "Harry James", last: "Potter" },
 		socials: [
 			{
 				platform: "github",

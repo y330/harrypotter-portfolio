@@ -63,7 +63,9 @@
 	});
 </script>
 
-<div class="typing-animated">{state}<span class="blinker">|</span></div>
+<div class="typing-animated">
+	{state}<span class="blinker">|</span>
+</div>
 
 <style>
 	.blinker {

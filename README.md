@@ -1,5 +1,5 @@
 (c) 2021 yonah aviv
-![](2021-08-21-18-19-52.png)
+![](screenshot.png)
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);

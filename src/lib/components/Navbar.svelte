@@ -18,7 +18,8 @@
 
 <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
 	<div class="flex-none px-2 mx-2">
-		<span class="text-lg font-bold"> {config.me.name} </span>
+		<span class="text-lg"> {config.me.name.first} </span>
+		<span class="text-lg font-bold"> {config.me.name.last} </span>
 	</div>
 	<div class="flex-1 px-2 mx-2">
 		<div class="items-stretch hidden lg:flex">
@@ -36,11 +37,11 @@
 		<div class="flex-none">
 			<a href={thisSocial.url} class="w-min">
 				<button
-					class="btn btn-block hover:{thisSocial.platform == 'linkedin'
-						? 'bg-blue-500'
+					class="btn btn-square {thisSocial.platform == 'linkedin'
+						? 'hover:bg-blue-500'
 						: thisSocial.platform == 'github'
-						? 'bg-gray-400'
-						: ''} hover:text-white"
+						? 'hover:bg-gray-500'
+						: 'bg-neutral-focus'} hover:text-white"
 				>
 					{#if thisSocial.platform == 'linkedin'}
 						<BrandLinkedin />

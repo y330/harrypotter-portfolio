@@ -28,6 +28,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@tailwindcss/typography": "^0.4.1",
+		"d3-random": "^3.0.1",
 		"daisyui": "^1.12.1"
 	}
 }

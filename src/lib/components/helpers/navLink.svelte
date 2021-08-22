@@ -7,11 +7,12 @@
 </script>
 
 <a
-	class="btn btn-sm rounded-btn hover:text-primary-focus {active == true ? 'text-primary px-0' : 'px-5'}"
+	class="btn rounded-btn capitalize font-mono hover:text-primary-focus {active == true ? 'text-primary px-2 mx-2' : 'px-10'}"
 	href="/{page == 'Home' ? '' : page.toLowerCase()}"
 >
 	{#if active === true}
-		<b>{'<'}</b>{page}<b> {'/>'}</b>
+		<ChevronLeft />{page}
+		<ChevronRight />
 	{:else}
 		{page}
 	{/if}

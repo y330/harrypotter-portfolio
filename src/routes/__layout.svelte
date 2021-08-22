@@ -6,7 +6,7 @@
 	import '../app.postcss';
 </script>
 
-<Navbar />
-<br />
-<TypingAnimation text={$active_page} delay={100} />
-<slot />
+<main >
+	<Navbar />
+	<slot />
+</main>
