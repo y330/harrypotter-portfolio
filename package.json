@@ -1,5 +1,7 @@
 {
 	"name": "portfolio",
+	"author": "Yonah Aviv",
+	"license": "GPL-3",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
@@ -12,6 +14,7 @@
 		"deploy": "node ./gh-pages.js"
 	},
 	"devDependencies": {
+		"@sveltejs/adapter-static": "^1.0.0-next.17",
 		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.3.1",
 		"cssnano": "^5.0.6",

@@ -1,5 +1,5 @@
 (c) 2021 yonah aviv
-![](screenshot.png)
+![](static/localhost_3000_.png)
 
 # create-svelte
 
@@ -39,3 +39,13 @@ npm run build
 ```
 
 > You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+
+# Yonah's Additional Information
+
+## To custimize
+1. Edit [config.Portfolio.ts](src/lib/config.Portfolio.ts)
+2. Your good 😁
+## To deploy
+1. First, clone the repo.
+2. Then, change the info in gh-pages.js to match the new repo, and fill in your name, email, etc.
+3. Then, in the terminal: `pnpm run deploy`
