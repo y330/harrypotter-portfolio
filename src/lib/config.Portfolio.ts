@@ -1,25 +1,25 @@
 export default {
 	me: {
-		name: { first: 'Harry', last: 'Potter' },
+		name: { first: 'Aviral', last: 'Damle' },
 		socials: [
 			{
 				platform: 'github',
-				url: 'https://github.com/y330'
+				url: 'https://github.com/HarryPotter12352'
 			},
 			{
-				platform: 'linkedin',
-				url: 'https://linkedin.com/in/yonahaviv'
+				platform: 'Discord',
+				url: 'Harry James Potter#0001'
 			}
 		],
 		introduction:
-			'I am a _____ with a strong passion for Computer Science and Technology. As a frontend web developer, I use Modern JavaScript Frameworks, and as a machine learning programmer, I use python.',
+			'I am a bot and web developer with a strong passion for Computer Science and Technology. As a frontend web developer, I use Modern JavaScript Frameworks, and as a machine learning programmer, I use python.',
 		skills: [
 			{ label: 'Python', color: '#3572A5' },
 			{ label: 'JavaScript', color: '#f8c05a' },
-			{ label: 'Svelte', color: '#ff3e00' },
+			{ label: 'discord.py', color: '#ff3e00' },
 			{ label: 'TypeScript', color: '#2b7489' },
 			{ label: 'Git', color: '#f14e32' },
-			{ label: 'Machine Learning', color: '#373f53' }
+			{ label: 'django', color: '#373f53' }
 		]
 	},
 	portfolio: {
