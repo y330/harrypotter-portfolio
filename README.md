@@ -42,7 +42,7 @@ npm run build
 
 # Yonah's Additional Information
 
-## To custimize
+## To customize
 1. Edit [config.Portfolio.ts](src/lib/config.Portfolio.ts)
 2. Your good 😁
 ## To deploy
