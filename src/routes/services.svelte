@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { active_page } from '$lib/stores/stores';
 
-	$active_page = 'Resume';
+	$active_page = 'Services';
 </script>
 
-{$active_page}
+<!-- {$active_page} -->
 
 <!-- markup (zero or more items) goes here -->
 <style>

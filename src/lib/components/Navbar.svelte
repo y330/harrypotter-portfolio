@@ -11,18 +11,18 @@
 	import { active_page } from '$lib/stores/stores';
 	import config from '$lib/config.Portfolio';
 	// --------------------
-	export let pages = 'Home,Portfolio,Resume,Contact';
+	export let pages = 'Home,Portfolio,Services,Contact';
 	$active_page = '';
 	let pagesArray = stringToArray(pages);
 </script>
 
-<div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
+<div class="navbar bg-neutral text-neutral-content rounded-box fixed w-full mb-2 shadow-lg">
 	<div class="flex-none px-2 mx-2">
 		<span class="text-lg"> {config.me.name.first} </span>
 		<span class="text-lg font-bold"> {config.me.name.last} </span>
 	</div>
 	<div class="flex-1 px-2 mx-2">
-		<div class="items-stretch hidden lg:flex">
+		<div class="lg:flex items-stretch hidden">
 			{#each pagesArray as thisPage}
 				{#if thisPage == $active_page}
 					<NavLink active={true} page={thisPage} />
@@ -53,3 +53,9 @@
 		</div>
 	{/each}
 </div>
+
+<style>
+	.navbar {
+		z-index: 100;
+	}
+</style>

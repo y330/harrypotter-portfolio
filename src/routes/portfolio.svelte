@@ -7,5 +7,4 @@
 	$active_page = 'Portfolio';
 </script>
 
-{$active_page}
 <Projects />

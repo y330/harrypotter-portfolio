@@ -7,7 +7,9 @@
 </script>
 
 <a
-	class="btn rounded-btn capitalize font-mono hover:text-primary-focus {active == true ? 'text-primary px-2 mx-2' : 'px-10'}"
+	class="btn rounded-btn capitalize font-mono hover:text-primary-focus {active == true
+		? 'text-primary px-2 mx-2'
+		: 'px-10'}"
 	href="/{page == 'Home' ? '' : page.toLowerCase()}"
 >
 	{#if active === true}

@@ -1,5 +1,122 @@
 @tailwind base;
 /* Write your global styles here, in PostCSS syntax */
 
+/*____Scrollbar____*/
+.scroll__::-webkit-scrollbar {
+	width: 1.1rem;
+	height: 1.1rem;
+	background-color: transparent;
+	transition: all 500ms ease-in-out;
+}
+
+.dark-mode.scroll__::-webkit-scrollbar {
+	background-color: transparent;
+}
+
+.scroll__::-webkit-scrollbar-track:vertical {
+	transition: all 500ms ease-in-out;
+
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.scroll__::-webkit-scrollbar-track:horizontal {
+	transition: all 500ms ease-in-out;
+
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode.scroll__::-webkit-scrollbar-track {
+	border-color: rgba(255, 255, 255, 0.05);
+}
+
+.scroll__::-webkit-scrollbar-thumb {
+	min-width: 3rem;
+	min-height: 3rem;
+	background-color: rgba(0, 0, 0, 0.25);
+	border: 0 solid transparent;
+	border-width: 0.4rem;
+	-moz-background-clip: content;
+	-webkit-background-clip: content;
+	background-clip: content-box;
+	border-radius: 1rem;
+	transition: border 200ms ease;
+	transition-property: all;
+}
+
+.scroll__::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-color: transparent;
+	cursor: pointer;
+}
+.scroll__::-webkit-scrollbar-thumb:active {
+	border-width: 0.3rem;
+	/* transition: border-width 700ms ease-in-out; */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* border-color: rgba(0, 0, 0, 0.25); */
+}
+
+.dark-mode.scroll__::-webkit-scrollbar-thumb {
+	background-color: rgba(255, 255, 255, 0.25);
+	border-color: transparent;
+}
+
+.card.scroll__::-webkit-scrollbar {
+	width: 1.4rem;
+	height: 1.4rem;
+	background-color: transparent;
+}
+
+.dark-mode.card.scroll__::-webkit-scrollbar {
+	background-color: transparent;
+}
+
+.card.scroll__::-webkit-scrollbar-track {
+	border-width: 1px;
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode.card.scroll__::-webkit-scrollbar-track {
+	border-color: rgba(255, 255, 255, 0.05);
+}
+
+.card.scroll__::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.25);
+	border-width: 0.4rem;
+	border-color: transparent;
+	border-radius: 1rem;
+}
+
+.card.scroll__::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-color: transparent;
+}
+.card.scroll__::-webkit-scrollbar-thumb:focus {
+	background-color: #ff3e00;
+}
+
+.dark-mode.card.scroll__::-webkit-scrollbar-thumb {
+	background-color: rgba(255, 255, 255, 0.25);
+	border-color: transparent;
+}
+
+.dark-mode.card.scroll__::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(255, 255, 255, 0.4);
+	border-color: transparent;
+}
+.dark-mode.card.scroll__::-webkit-scrollbar-thumb:active {
+	background-color: hsla(var(--p) / var(--tw-bg-opacity, 1));
+}
+
+.card.scroll__::-webkit-scrollbar-corner {
+	background-color: transparent;
+	/* border-width:1px; */
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .card.scroll__::-webkit-scrollbar-corner {
+	background-color: transparent;
+	border-color: rgba(255, 255, 255, 0.05);
+}
+
 @tailwind components;
-@tailwind utilities
+@tailwind utilities;
