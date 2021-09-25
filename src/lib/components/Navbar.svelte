@@ -53,6 +53,8 @@
 		</div>
 	{/each}
 </div>
+<br />
+<br />
 
 <style>
 	.navbar {
