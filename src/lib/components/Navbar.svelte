@@ -44,7 +44,7 @@
 						: 'bg-neutral-focus'} hover:text-white"
 				>
 					{#if thisSocial.platform == 'discord'}
-						<BrandLinkedin />
+						<BrandDiscord />
 					{:else if thisSocial.platform == 'github'}
 						<BrandGithub />
 					{/if}
