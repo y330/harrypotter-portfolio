@@ -17,7 +17,7 @@
 		<ChevronLeft />
 			Yonah Aviv
 		<ChevronRight />
-	{#else if active === true}
+	{:else if active === true}
 		<ChevronLeft />{page}
 		<ChevronRight />
 	{:else}
