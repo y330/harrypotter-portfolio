@@ -8,7 +8,7 @@ export default {
 			},
 			{
 				platform: 'discord',
-				url: 'https://discordapp.com/users/737540230957105254'
+				url: 'https://discord.com/users/737540230957105254'
 			}
 		],
 		introduction:
