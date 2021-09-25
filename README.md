@@ -14,6 +14,8 @@ If you're seeing this, you've probably already done this step. Congrats!
 # create a new project in the current directory
 pnpm init svelte@next
 
+
+
 # create a new project in my-app
 pnpm init svelte@next my-app
 ```
