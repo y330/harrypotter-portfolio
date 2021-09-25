@@ -11,7 +11,7 @@
 	class="btn rounded-btn capitalize font-mono hover:text-primary-focus {active == true
 		? 'text-primary px-2 mx-2'
 		: 'px-10'}"
-	href="{() => {if (isAuthor === true) {'https://yonah.ml'}else if (page == 'Home') {return '/'} else {return '/' + page.toLowerCase()}}"
+	href="{() => {if (isAuthor === true) {return 'https://yonah.ml'}else if (page == 'Home') {return '/'} else {return '/' + page.toLowerCase()}}"
 >
 	{#if isAuthor === true}
 		<ChevronLeft />
