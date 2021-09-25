@@ -7,8 +7,8 @@ export default {
 				url: 'https://github.com/HarryPotter12352'
 			},
 			{
-				platform: 'Discord',
-				url: 'Harry James Potter#0001'
+				platform: 'discord',
+				url: '#'
 			}
 		],
 		introduction:
