@@ -3,7 +3,7 @@
 	import NavLink from '$lib/components/helpers/navLink.svelte';
 
 	// ------icons------
-	import BrandLinkedin from 'tabler-icons-svelte/icons/BrandLinkedin.svelte';
+	import BrandDiscord from 'tabler-icons-svelte/icons/BrandDiscord.svelte';
 	import BrandGithub from 'tabler-icons-svelte/icons/BrandGithub.svelte';
 
 	// ------utilities-----
@@ -37,13 +37,13 @@
 		<div class="flex-none">
 			<a href={thisSocial.url} class="w-min">
 				<button
-					class="btn btn-square {thisSocial.platform == 'linkedin'
-						? 'hover:bg-blue-500'
+					class="btn btn-square {thisSocial.platform == 'discord'
+						? 'hover:bg-purple-500'
 						: thisSocial.platform == 'github'
 						? 'hover:bg-gray-500'
 						: 'bg-neutral-focus'} hover:text-white"
 				>
-					{#if thisSocial.platform == 'linkedin'}
+					{#if thisSocial.platform == 'discord'}
 						<BrandLinkedin />
 					{:else if thisSocial.platform == 'github'}
 						<BrandGithub />
