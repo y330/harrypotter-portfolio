@@ -1,6 +1,9 @@
 (c) 2021 yonah aviv
 ![](static/localhost_3000_.png)
 
+![image](https://user-images.githubusercontent.com/68514914/134787049-9c3208f9-ebeb-4092-a188-1a25c75dff6d.png)
+
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
